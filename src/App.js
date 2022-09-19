@@ -1,18 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import WordGuess from './components/WordGuess';
+import "./App.css";
+import LetterRow from "./components/LetterRow";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <WordGuess />
-      </header>
-    </div>
+    <section className="App">
+      <nav className="nav">
+        <p>Word Game</p>
+      </nav>
+      <LetterRow />
+      <LetterRow />
+      <LetterRow />
+      <LetterRow />
+      <LetterRow />
+      <LetterRow />
+      <button className="submit-button">Submit</button>
+    </section>
   );
 }
 

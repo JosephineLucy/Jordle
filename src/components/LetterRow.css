@@ -1,0 +1,8 @@
+.letterRow {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 10px 0;
+
+}

@@ -1,0 +1,7 @@
+.letterTile {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin: 0 5px;
+    border: solid 1px black;
+};
